@@ -1,5 +1,5 @@
 #linear regression
-dataset
+dataset<-read_excel("/dataset.xlsx")
 dim(dataset)
 head(dataset)
 colnames(dataset)
