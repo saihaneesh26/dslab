@@ -28,7 +28,7 @@ predns <- ifelse(predns>0.5,1,0)
 predns
 
 table(predns,testing$vs)
-ROCPred <- prediction(predns, test_reg$vs)  
+ROCPred <- prediction(predns, testing$vs)  
 
 ROCPer <- performance(ROCPred, measure = "tpr",  
 
